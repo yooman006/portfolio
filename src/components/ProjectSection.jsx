@@ -13,10 +13,10 @@ import { assets } from "../assets/assets"; // images should be stored here
 
 const projects = [
     {
-        title: "Personal Portfolio",
-        description: "A modern portfolio site built with React and MUI, highlighting skills, projects, and certifications.",
+        title: "YooFoods",
+        description: "YooFoods is a responsive food ordering web application built with React.js. It allows users to browse a variety of food items, add them to a cart, and place orders seamlessly. The app features a clean user interface, efficient state management, and smooth user experience, making online food ordering quick and convenient.",
         image: assets.food,
-        tech: ["React", "Material UI", "Framer Motion"],
+        tech: ["React", "Material UI", "MongoDB","React Toast"],
         link: "https://yoofood.netlify.app/"
     },
 ];
