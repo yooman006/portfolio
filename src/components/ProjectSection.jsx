@@ -14,10 +14,14 @@ import { assets } from "../assets/assets"; // images should be stored here
 const projects = [
     {
         title: "YooFoods",
-        description: "YooFoods is a responsive food ordering web application built with React.js. It allows users to browse a variety of food items, add them to a cart, and place orders seamlessly. The app features a clean user interface, efficient state management, and smooth user experience, making online food ordering quick and convenient.",
+        description: [
+            "YooFoods is a responsive food ordering web application built with React.js.",
+            "Users can browse a variety of food items, add them to a cart, and place orders seamlessly.",
+            "Features a clean user interface, efficient state management, and a smooth user experience.",
+        ],
         image: assets.food,
-        tech: ["React", "Material UI", "MongoDB","React Toast"],
-        link: "https://yoofood.netlify.app/"
+        tech: ["React", "Material UI", "MongoDB", "React Toast"],
+        link: "https://yoofood.netlify.app/",
     },
 ];
 
@@ -110,9 +114,17 @@ const ProjectSection = () => {
                                         >
                                             {project.title}
                                         </Typography>
-                                        <Typography variant="body2" sx={{ color: "#ccc", mb: 2 }}>
-                                            {project.description}
-                                        </Typography>
+
+                                        <Box component="ul" sx={{ pl: 2, color: "#ccc", mb: 2 }}>
+                                            {project.description.map((point, i) => (
+                                                <li key={i} style={{ marginBottom: "6px" }}>
+                                                    <Typography variant="body2">
+                                                        {point}
+                                                    </Typography>
+                                                </li>
+                                            ))}
+                                        </Box>
+
                                         <Box sx={{ display: "flex", flexWrap: "wrap", gap: 1 }}>
                                             {project.tech.map((tag, i) => (
                                                 <Chip
