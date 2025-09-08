@@ -52,7 +52,7 @@ const HeroSection = () => {
           </div>
 
           <h2 className="text-3xl md:text-5xl font-bold text-orange-400 ">
-            Web Developer / Cyber Enthusiast
+            Web Developer /Full Stack Developer
           </h2>
 
           {/* Social Icons */}

@@ -84,49 +84,11 @@ const ContactMeSection = () => {
           >
             📬 Contact Me
           </Typography>
-          <div className="h-[3px] w-[60px] mx-auto bg-cyan-400 mb-8 rounded-full" />
+          <div className="text-center text-cyan-100 font-semibold text-sm">
+  barathvikraman6523@gmail.com
+</div>
 
-          <form ref={form} onSubmit={sendEmail}>
-            <Stack spacing={3}>
-              <StyledTextField
-                fullWidth
-                name="user_name"
-                label="Name"
-                variant="outlined"
-              />
-              <StyledTextField
-                fullWidth
-                name="user_email"
-                label="Email"
-                variant="outlined"
-              />
-              <StyledTextField
-                fullWidth
-                name="message"
-                label="Message"
-                variant="outlined"
-                multiline
-                rows={4}
-              />
-
-              <Button
-                type="submit"
-                variant="contained"
-                disabled={loading}
-                sx={{
-                  backgroundColor: "#06b6d4",
-                  "&:hover": { backgroundColor: "#0891b2" },
-                  textTransform: "none",
-                  fontWeight: "bold",
-                  borderRadius: "10px",
-                  py: 1.5,
-                }}
-              >
-                {loading ? "Sending..." : "Send Message"}
-              </Button>
-            </Stack>
-          </form>
-
+         
           {/* Social Icons */}
           <div className="flex justify-center space-x-5 pt-6 text-xl text-white">
             <a

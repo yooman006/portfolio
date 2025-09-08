@@ -7,6 +7,8 @@ import react from './react.jpg'
 import seo from './seo.jpg'
 import food from './food.png'
 import siva from './siva.png'
+import cracker1 from './cracker1.png'
+import mano from './mano.png'
 
 export const assets = {
     mine,
@@ -18,4 +20,7 @@ export const assets = {
     seo,
     food,
     siva,
+    cracker1,
+    mano
+
 }

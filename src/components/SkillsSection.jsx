@@ -9,8 +9,9 @@ export const skillsData = {
     { name: "Leadership", percentage: 86 },
   ],
   technicalStack: {
-    Programming: ["JavaScript", "Python", "REACT JS", "C"],
-    "Security Tools": ["Hydra", "Honeypot", "Wireshark", "Nmap", "Hping", "FFUF", "Metasploit"],
+    Programming: ["JavaScript", "Python", "Java", "C"],
+    "Frontend": ["HTML","CSS","React.js"],
+    "Database": ["MYSQL"],
     "Cybersecurity Skills": ["Vulnerability Assessment", "Penetration Testing"],
     "Additional Skills": ["Digital Marketing"]
   }

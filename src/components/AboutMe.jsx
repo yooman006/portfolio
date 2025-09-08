@@ -17,28 +17,13 @@ const AboutMe = () => {
 
           <p className="text-gray-300 text-lg leading-relaxed max-w-3xl mx-auto md:mx-0">
             I'm <span className="text-orange-500 font-semibold">Barath Vikraman</span>,
-            a passionate Web Developer and Cybersecurity Enthusiast. I enjoy building responsive,
+            a passionate Web Developer . I enjoy building responsive,
             high-performing websites and staying up-to-date with the latest security practices.
             My goal is to create user-friendly and secure digital experiences that make a difference.
           </p>
 
           <div className="pt-4">
-            <Button
-              variant="outlined"
-              sx={{
-                borderColor: "#ffffff",
-                color: "#ffffff",
-                "&:hover": {
-                  backgroundColor: "#ffffff",
-                  color: "#000000",
-                },
-                textTransform: "none",
-                fontWeight: "bold",
-                borderRadius: "8px",
-              }}
-            >
-              Know More
-            </Button>
+           
           </div>
         </motion.div>
       </div>
